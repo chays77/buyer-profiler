@@ -132,6 +132,7 @@ Also cohost of **Bullhorns & Bullseyes** — a podcast on marketing, brand, and 
 - **Dave Tear, Sales Coaches' Corner** — My sales coach. The principle that anchors this entire specialist — "most deals don't die at the close, they die at the open" — is Dave's. So is the discipline around qualifying pain, money, and decision authority before pitching. 30+ years coaching salespeople, originally Sandler-trained under Jerry Weinberg. [salescoachescorner.com](https://www.salescoachescorner.com/)
 - **Jake Van Clief** — Interpretable Context Methodology (ICM) framework that this folder architecture is built on. [Clief Notes](https://www.skool.com/cliefnotes/about?ref=5d6ee1c3f7d14214967dc0fd5aa0888e)
 - **Clief Notes / Skool** — Week 3 competition prompt that sparked this build
+- **Terry Bean, Behavioral Elements** — The Fire / Earth / Water / Air behavioral driver framework that runs underneath every buyer type read. Terry's model maps primary drivers (acquire / defend / bond / learn) to how someone shows up in conversation. [behavioralelements.com](https://behavioralelements.com/)
 - **Sandler Training** — Pain funnel and qualification framework (trained 2011)
 - **16Personalities** — Personality type framework and naming conventions
 
