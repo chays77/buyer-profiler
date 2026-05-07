@@ -103,9 +103,11 @@ buyer-profiler/
 Curtis Hays, Collideascope — [collideascope.co](https://collideascope.co)
 Sandler-trained since 2011. Built from 15 years of applying that methodology to marketing agency sales, combined with behavioral profiling from 16Personalities, DISC, and Terry Bean's behavioral driver theory.
 
+Also cohost of **Bullhorns & Bullseyes** — a podcast on marketing, brand, and revenue architecture: [bullhornsbullseyes.com](https://bullhornsbullseyes.com/)
+
 ## Acknowledgments
 
-- **Jake Van Clief** — Interpretable Context Methodology (ICM) framework that this folder architecture is built on. [Clief Notes](https://www.skool.com/clief-notes)
+- **Jake Van Clief** — Interpretable Context Methodology (ICM) framework that this folder architecture is built on. [Clief Notes](https://www.skool.com/cliefnotes/about?ref=5d6ee1c3f7d14214967dc0fd5aa0888e)
 - **Clief Notes / Skool** — Week 3 competition prompt that sparked this build
 - **Sandler Training** — Pain funnel and qualification framework (trained 2011)
 - **16Personalities** — Personality type framework and naming conventions
