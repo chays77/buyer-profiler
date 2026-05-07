@@ -6,6 +6,28 @@ A folder-based AI specialist for Claude. Drop the folder into a Claude project. 
 
 ---
 
+## Who This Is For
+
+A peer told me once: *"The fortune is in the follow-up."*
+
+I thought that was great advice. I repeated it for ten years. I built CRM workflows around it. I bought books about it. And I still wasn't closing the deals I should have been closing.
+
+It took me a decade to realize the problem wasn't *that* I followed up — it was *how* I followed up. I was sending the same kind of follow-up to every prospect. The Commander got my "checking in" email. The Logistician got my "ready when you are" nudge. Both went silent. Not because I wasn't persistent. Because I was generic.
+
+The fortune isn't in the follow-up. The fortune is in **knowing what to say to *this* person on the next call.** That's a read problem, not a persistence problem.
+
+If you've ever lost a deal you should have won and couldn't say exactly why — this folder is for you.
+
+**Specifically:**
+- **Founders selling their own services** — closing a $5K–$50K deal where one bad call costs you a full month of revenue
+- **Account executives carrying quota** — running discovery calls where the difference between read-the-room and miss-the-room is your variable comp
+- **Agency owners** — proposing engagements where a single mismatch costs you a multi-month retainer
+- **Sales coaches and managers** — reviewing rep transcripts and trying to diagnose *why* a deal stalled
+
+If you can read your prospect, you can close them. This folder helps you read them.
+
+---
+
 ## How to Use It
 
 1. Create a new Claude project at [claude.ai](https://claude.ai)
