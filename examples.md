@@ -1,6 +1,6 @@
 # Examples — Buyer Profiler
 
-Three examples showing the specialist in action. Each starts with a transcript excerpt and ends with a full profile + close strategy output.
+Four examples showing the specialist in action. Each starts with a transcript excerpt and ends with a full profile + close strategy output. The first three are single-buyer calls. The fourth is a multi-buyer call showing the Decision Dynamic output.
 
 ---
 
@@ -168,3 +168,102 @@ Ask these to sharpen the read:
 | "What's your team's relationship been like with outside vendors?" | Trust baseline, S lean confirmation, risk tolerance |
 
 **Close strategy:** Hold. No proposal, no framing recommendations until a second call produces signal. Your only job on the first call is to ask the probe questions and listen.
+
+---
+
+## Example 4 — Multi-Buyer Call (Decision-Maker + Implementer)
+
+**Input:**
+
+> Monthly check-in call with an existing client — an event ticketing SaaS company. Two buyers on the call: the founder/CEO ("M") and the marketing manager ("J"). The agency has been running paid media for them for ~12 months. M is direct, fast-moving, and announces several decisions live: switching ad spend to a new vendor's funnel system, considering canceling HubSpot ($2,500/month), wanting to rebuild a slow website. J brings up the agenda items collaboratively, defers to M on substance, but owns day-to-day execution.
+
+**Output:**
+
+---
+
+### Buyer 1 Profile
+
+**Type: Entrepreneur (ESTP)**
+Confidence: High — multiple unguarded moments, hard numbers, decisive language
+
+**Evidence:**
+- "It's do or die for a lot of companies" — urgency framing, action-oriented
+- Already moved on a new vendor and an acquisition before this call. Doesn't wait for permission.
+- Hard numbers in the opener: $80 cost-per-demo, 1-in-4 close rate, $400 CPA vs. $1,400 average. Measures everything in money.
+- Self-aware about expertise gaps: "I used to put WordPress sites together but my expertise dies after WP Optimization"
+- Tells you what's working *and* what he's fed up with, unprompted (HubSpot at $2,500/month). Low filter.
+- Decisive: "We probably want to stay away from Meta with you guys for a while"
+
+**Primary driver:** Fire — drive to acquire. ROI-velocity-measured.
+
+**Blend notes:** Entrepreneur with Debater (ENTP) lean — tests ideas out loud, welcomes counter-positioning when it's grounded.
+
+**Failure mode for this deal:** Process-talking him to death. He announced a Meta budget reduction in this call and the seller didn't engage it. If you push back without offering a sharper alternative immediately, the budget walks. He also flagged HubSpot frustration twice — if you don't engage that signal, you miss a renewal moment that's not actually about the website.
+
+---
+
+### Buyer 2 Profile
+
+**Type: Protagonist (ENFJ)** with Consul (ESFJ) blend
+Confidence: Medium — fewer direct quotes but consistent relational pattern
+
+**Evidence:**
+- Opens by thanking the agency for being flexible so M could join — relationship maintenance
+- "He can provide more business details… explain the vision better" — defers to M on substance, frames it collaboratively
+- Uses "you guys" repeatedly — inclusive, group-decision framing
+- "There's so much I know there's so much more we could be doing… I don't even know we should be doing" — comfortable saying she doesn't know
+- "Do you want to talk about that, M?" — checks in with the decision-maker, doesn't seize the floor
+
+**Primary driver:** Water — drive to bond. Relationship-led.
+
+**Blend notes:** Protagonist with Consul lean — relationship-led but also wants the team aligned and comfortable.
+
+**Failure mode for this deal:** Pushing recommendations through M without including J. She executes day-to-day. If she feels excluded, the work stalls in implementation even after M says yes.
+
+---
+
+### Decision Dynamic
+
+**Who has the actual veto:** M. He's the owner-operator. He made the Meta call solo on this transcript.
+**Who runs implementation:** J. She's named the LLM strategy, brought up the GoHighLevel integration question, and manages day-to-day execution.
+**The pairing risk:** M moves fast and decides in the room. J builds consensus and executes. If you only sell to M, J may feel bulldozed and slow-walk. If you only sell to J, you can't get a final decision.
+**Tactical implication:** Frame the next move as two parallel tracks — one M can decide on the spot (strategic direction), one J owns end-to-end (execution detail). Gives M closure and J ownership simultaneously.
+
+---
+
+### Sandler Frame Check
+
+| Dimension | Status |
+|---|---|
+| Pain | Multiple pain points named and partially quantified — Meta CPA $1,400 vs. $400 with new vendor, slow website, HubSpot at $2,500/month feels overpriced. |
+| Budget | Active spend across multiple channels. Not budget-constrained. |
+| Decision | M has authority. J runs implementation. Both must agree before scope expands. |
+| Control | Mixed — they drove the agenda, the seller responded reactively. M announced decisions the seller didn't engage. |
+
+**Critical gap:** M made a *unilateral decision* in this call ("stay away from Meta with you guys for a while") and the seller didn't engage it. That's a budget reduction announced live without a counter-frame. The deal isn't dying — the scope is shrinking in real time.
+
+---
+
+### Close Strategy
+
+**The most important move on the next call:**
+
+Reclaim the Meta budget question. M announced a decision the seller didn't engage. You have one chance to reframe before it becomes the new normal.
+
+**Open the next call with M:**
+> "M — I've been sitting with what you said about Meta. Before we accept that as the path, I want to make sure we're comparing the right things. Your vendor's funnel system is winning because the data loop back to Meta is tighter — not because their creative is better than ours. If we replicated that data loop on PMax with the same landing system, would you want to pressure-test whether we get similar gains on Google before we cede Meta entirely?"
+
+**Why:** Honors his decision (doesn't argue with the result) while reframing the *cause* of the result. Entrepreneurs respect counter-positioning when it's grounded in their own logic.
+
+**On the HubSpot question (engage M directly):**
+> "You mentioned HubSpot twice — let's actually price out what GoHighLevel + a clean WordPress would cost. If the math works, you save $2,500/month. I'd rather we redirect that into ad spend than lose it to a vendor that isn't earning it."
+
+**For J — schedule a working session separately:**
+> "J, can you and [account manager] schedule a working session to walk through the GoHighLevel setup and the new ad funnel? I need to see exactly what's running before I can speak to whether we replicate it on PMax."
+
+**Next step language for both:**
+> "Give me until [specific date] to come back with a site audit report and a recommendation on the HubSpot question. Then let's get all four of us on a call to make those decisions together."
+
+**What to hold back:** Don't agree to a website rebuild on the call. M is asking if a clean WordPress reimport solves the speed problem — that's a $5K-$10K project framed as a quick fix. Probe first: site speed problems on aged WordPress sites usually come from 3-4 specific issues. A clean reimport doesn't fix them — it reimports them.
+
+**Why this works for both buyers:** M gets a specific deliverable on a specific date (his preferred mode). J gets a working session (her preferred mode — collaborative, hands-on). Both decisions get made together, which protects the relationship.

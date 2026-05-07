@@ -44,6 +44,30 @@ Do not load all three by default. Load on demand as the profile requires them.
 - **Medium:** 2 signals aligned, some inference required. At least one direct behavioral observation.
 - **Low:** Single interaction, thin transcript, or conflicting signals. Output a working hypothesis + probe questions.
 
+## Multi-Buyer Calls
+
+When more than one prospect is present in the transcript, do not blend signals or pick one. Profile each buyer separately, then add a **Decision Dynamic** section.
+
+For each buyer:
+- Run the full Buyer Profile output structure
+- Number them: "Buyer 1 Profile," "Buyer 2 Profile," etc.
+- Use names from the transcript when available
+
+After all buyer profiles, add this section before the Sandler Frame Check:
+
+```
+## Decision Dynamic
+
+**Who has the actual veto:** [name + one-line why]
+**Who runs implementation:** [name + one-line why]
+**The pairing risk:** [how the two types interact — where they help each other, where they create friction]
+**Tactical implication:** [one specific adjustment to the close strategy that accounts for both buyers]
+```
+
+The Sandler Frame Check and Close Strategy that follow should account for both buyers, not just the dominant one. The Close Strategy must give the seller language for both — what to say to the decision-maker and what to say to the implementer, even if those are different moments in the deal.
+
+If `reference/user-profile.md` is filled out, run the **Seller-Buyer Dynamic** section twice — once for the decision-maker, once for the implementer. Note where the seller's blind spots compound across both pairings.
+
 ## Output Structure (always use this format)
 
 ```
