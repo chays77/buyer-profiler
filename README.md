@@ -2,36 +2,36 @@
 
 **Read your prospect. Close with precision.**
 
-A folder-based AI specialist for Claude that profiles sales prospects from call transcripts and tells you exactly how to close them — based on who they are, not a generic playbook.
+A folder-based AI specialist for Claude. Drop the folder into a Claude project. Claude becomes the specialist. Reusable. Shareable. Portable.
 
-## What This Does
-
-Drop this folder into a Claude project. Paste a sales call transcript or discovery call notes. Get back two things in one output:
-
-1. **A buyer type diagnosis** — who this person is, how they decide, what drives them
-2. **A tailored close strategy** — exactly how to run the next call using Sandler methodology, adapted to this specific buyer
-
-If you've filled out `user.md`, you also get:
-
-3. **Seller-Buyer Dynamic** — how *your* natural selling style interacts with *this* buyer's type, and where you need to compensate
-
-## Prerequisites
-
-- A Claude account ([claude.ai](https://claude.ai) — Free, Pro, or Team)
-- Claude Projects enabled (available on Pro and Team plans)
+---
 
 ## How to Use It
 
-1. Create a new Claude project
-2. Upload this entire folder
-3. Fill out `user.md` with your seller profile (unlocks the Seller-Buyer Dynamic section)
-4. Paste your transcript or call notes and say: **"Profile this buyer and give me my close strategy."**
+1. Create a new Claude project at [claude.ai](https://claude.ai)
+2. Upload this entire folder to the project
+3. (Optional but recommended) Open `reference/user-profile.md` and fill in your own seller profile — unlocks the Seller-Buyer Dynamic section
+4. Paste a sales call transcript or call notes and say: **"Profile this buyer and give me my close strategy."**
 
-Claude becomes the Buyer Profiler for every conversation in that project.
+Expect output that looks like the example below.
 
-> See `GETTING-STARTED.md` for the full onboarding guide including transcript tool recommendations and a step-by-step walkthrough.
+---
 
-## What Good Output Looks Like
+## What You Get
+
+Every run produces:
+
+1. **Buyer Profile** — cognitive type, behavioral driver, evidence, failure mode for this deal
+2. **Sandler Frame Check** — what's known and unknown across Pain / Budget / Decision / Control
+3. **Close Strategy** — exact language for the next call, what to hold back
+
+If `reference/user-profile.md` is filled out, you also get:
+
+4. **Seller-Buyer Dynamic** — how your natural selling style interacts with this buyer's type, and where you need to compensate
+
+---
+
+## Example Output
 
 ```
 ## Buyer Profile
@@ -71,26 +71,34 @@ Next step: "Can we get 30 minutes Thursday? I'll bring two options — I want yo
 Hold back: Don't send a proposal unsolicited. Don't over-detail scope in writing before a second call.
 ```
 
-## How to Give It Context (optional but improves output)
-
-Paste your transcript, then add one line of deal context if you have it:
-
-> "This is a first discovery call. I haven't proposed anything yet. She was referred by a mutual contact."
-
-The specialist activates on the transcript alone — context makes the close strategy more specific.
-
-## What It Needs From You
-
-- A transcript, call notes, or a written summary of what the prospect said
-- Deal context (stage, what you've proposed, what the ask is) — optional
+---
 
 ## What It Will Not Do
 
 - Write your proposal (it advises on framing — you write it)
-- Guarantee a read from a single 10-minute call (it will tell you its confidence level)
+- Guarantee a read from a single 10-minute call (it tells you its confidence level)
 - Make the decision for you — it gives you the read, you make the call
 
-## Who Built This
+---
+
+## Folder Contents
+
+```
+buyer-profiler/
+├── identity.md          ← Who the specialist is
+├── rules.md             ← How it responds, output format, activation logic
+├── examples.md          ← Three worked examples (high/medium/low confidence)
+├── reference/
+│   ├── buyer-types.md          ← All 16 buyer types with Sandler lever per type
+│   ├── sandler-pain-funnel.md  ← Pain funnel + 4-frame deal check
+│   ├── signal-reading-guide.md ← How to read T/F, E/I, J/P from a transcript
+│   └── user-profile.md         ← Your seller profile (fill this in)
+└── README.md            ← You are here
+```
+
+---
+
+## Built By
 
 Curtis Hays, Collideascope — [collideascope.co](https://collideascope.co)
 Sandler-trained since 2011. Built from 15 years of applying that methodology to marketing agency sales, combined with behavioral profiling from 16Personalities, DISC, and Terry Bean's behavioral driver theory.

@@ -1,4 +1,4 @@
-# user.md — Your Seller Profile
+# User Profile — Your Seller Profile
 
 Fill this out before running your first transcript. The Buyer Profiler uses your profile to add a **Seller-Buyer Dynamic** section to every close strategy — showing you not just how to close this buyer, but how *you specifically* need to adapt to close them.
 
@@ -106,7 +106,7 @@ Check the ones that apply. Be honest — these are the patterns that cost you de
 
 ## How the Profiler Uses This
 
-When `user.md` is present, every close strategy output will include:
+When this file is filled out, every close strategy output will include:
 
 **Seller-Buyer Dynamic** — a section that names:
 1. The natural rapport or friction between your type and the buyer's type

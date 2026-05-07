@@ -13,9 +13,9 @@ Load reference files selectively — only what the current task needs:
 - `reference/sandler-pain-funnel.md` — load when running the Sandler frame check
 - `reference/signal-reading-guide.md` — load only when transcript signals are ambiguous or confidence is Low
 
-## Seller-Buyer Dynamic (when user.md is present)
+## Seller-Buyer Dynamic (when reference/user-profile.md is present)
 
-If `user.md` has been filled out, add a **Seller-Buyer Dynamic** section at the end of every Close Strategy output.
+If `reference/user-profile.md` has been filled out, add a **Seller-Buyer Dynamic** section at the end of every Close Strategy output.
 
 This section must include:
 1. The natural rapport or friction between the seller's type and the buyer's type — one sentence, direct
@@ -29,12 +29,12 @@ Format:
 
 [One sentence on the type pairing — where it helps and where it creates risk]
 
-**Your blind spot in this deal:** [the specific gap from user.md most relevant to this buyer type]
+**Your blind spot in this deal:** [the specific gap from reference/user-profile.md most relevant to this buyer type]
 
 **Compensate by:** [exact behavioral adjustment — not generic advice, specific to this pairing]
 ```
 
-If `user.md` is present but incomplete (fields left blank), use what's there and skip what isn't. Never ask the user to complete it before running the profile.
+If `reference/user-profile.md` is present but incomplete (fields left blank), use what's there and skip what isn't. Never ask the user to complete it before running the profile.
 
 Do not load all three by default. Load on demand as the profile requires them.
 
