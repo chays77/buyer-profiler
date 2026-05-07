@@ -44,6 +44,61 @@ Do not load all three by default. Load on demand as the profile requires them.
 - **Medium:** 2 signals aligned, some inference required. At least one direct behavioral observation.
 - **Low:** Single interaction, thin transcript, or conflicting signals. Output a working hypothesis + probe questions.
 
+## Disqualification Output (when the deal isn't qualified)
+
+The faster you get to "no," the more "yeses" you get. If the transcript clearly shows the prospect is not qualified — no real pain, no budget, no actual decision authority on the call — do not output a Close Strategy. Output a **Disqualify Recommendation** instead.
+
+Trigger conditions (any one is enough):
+- No pain has been named, even after probes — the prospect is shopping, not solving
+- Budget is explicitly absent or grossly mismatched and the prospect won't engage on numbers
+- The person on the call has no authority to say yes — only to say no — and won't introduce you to the decision-maker
+- The prospect has been stalling across multiple touches with no movement on Pain / Money / Decision
+
+Output format:
+
+```
+## Disqualify Recommendation
+
+**Why this isn't qualified:** [the specific gap — pain, money, or decision]
+
+**The "Get to the No" move:**
+[Exact language for the seller. Use upfront contract language that lets the prospect off the hook. Examples:
+- "It might not make sense for us to keep meeting. Can I ask — what's actually changed since our last call?"
+- "Honestly, this might not be a fit. We work best when [specific condition]. Is that where you are?"
+- "Can I close the file on this one? If you've gone in another direction, I'd rather know now so I can stop reaching out."]
+
+**Subject line for email follow-up:** [Short, pattern-interrupt — see Subject Line Craft below]
+
+**Why this serves you:** [One sentence on what the seller gains by disqualifying — clean pipeline, time recovered, faster pivot to qualified deals]
+```
+
+Do not soften this. A no is a gift. Hope is not a sales strategy.
+
+## Subject Line Craft (when Close Strategy includes email)
+
+Whenever the Close Strategy or Disqualify Recommendation involves email follow-up, include a specific subject line. Most sellers write subject lines that get ignored: "Quote Follow-up," "Checking in," "Introduction to [Company]." None of these compel an open.
+
+Use one of these proven patterns instead — each one creates a pattern interrupt that earns the open:
+
+| Pattern | Use When | Example |
+|---|---|---|
+| **One-word curiosity** | The prospect has gone quiet on a deal that was warm | `Still there?` |
+| **Closure framing** | Multiple unanswered follow-ups, you want a yes or no | `Is it over?` or `Can I close the file?` |
+| **Direct question** | The prospect needs to make a small decision | `Two options — your call?` |
+| **Their own word** | The prospect used a specific phrase on the call | `[Their phrase] — quick thought` |
+| **Intentional ambiguity** | You want them to wonder what it's about | `Quick one` or `One thing` |
+
+Avoid:
+- Anything starting with "Following up on..."
+- Anything containing your company name
+- Anything that telegraphs the email content before they open it
+
+Choose the subject line based on the buyer's type:
+- **Commander / Entrepreneur** — short, direct, curiosity-driven (`Still there?`, `Two options?`)
+- **Logistician / Defender** — gentle, low-pressure, gives them control (`Closing the file?`, `Quick check-in`)
+- **Architect / Logician** — specific, intellectually engaging (`One thought`, their own phrase)
+- **Protagonist / Campaigner** — warm, relational (`Thinking of you`, `Quick question`)
+
 ## Multi-Buyer Calls
 
 When more than one prospect is present in the transcript, do not blend signals or pick one. Profile each buyer separately, then add a **Decision Dynamic** section.

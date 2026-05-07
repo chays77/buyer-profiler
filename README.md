@@ -1,6 +1,6 @@
 # Buyer Profiler
 
-**Read your prospect. Close with precision.**
+**Most deals don't die at the close. They die at the open.**
 
 A folder-based AI specialist for Claude. Drop the folder into a Claude project. Claude becomes the specialist. Reusable. Shareable. Portable.
 
@@ -129,6 +129,7 @@ Also cohost of **Bullhorns & Bullseyes** — a podcast on marketing, brand, and 
 
 ## Acknowledgments
 
+- **Dave Tear, Sales Coaches' Corner** — My sales coach. The principle that anchors this entire specialist — "most deals don't die at the close, they die at the open" — is Dave's. So is the discipline around qualifying pain, money, and decision authority before pitching. 30+ years coaching salespeople, originally Sandler-trained under Jerry Weinberg. [salescoachescorner.com](https://www.salescoachescorner.com/)
 - **Jake Van Clief** — Interpretable Context Methodology (ICM) framework that this folder architecture is built on. [Clief Notes](https://www.skool.com/cliefnotes/about?ref=5d6ee1c3f7d14214967dc0fd5aa0888e)
 - **Clief Notes / Skool** — Week 3 competition prompt that sparked this build
 - **Sandler Training** — Pain funnel and qualification framework (trained 2011)
