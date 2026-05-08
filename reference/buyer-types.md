@@ -2,11 +2,14 @@
 
 16 types organized by decision-making pattern. Use these as pattern-matching templates, not diagnoses.
 
+Each type lists its **cognitive stack** (Dominant-Auxiliary-Tertiary-Inferior). The dominant function is the lens the buyer can't turn off; the inferior is where they're blind. For the full diagnostic engine — how to read functions from a transcript and map them to behavior — load `reference/cognitive-functions.md`.
+
 ---
 
 ## Decisive / Fast-Moving Buyers
 
 ### Commander (ENTJ)
+**Cognitive stack:** Te-Ni-Se-Fi
 **Core drive:** Win. Efficiency. ROI velocity.
 **Buys when:** They trust you can deliver results and won't slow them down.
 **Loses when:** You over-explain process, lead with relationship before value, or send a proposal they didn't ask for.
@@ -14,6 +17,7 @@
 **Sandler lever:** Pain-first. Quantify the cost of inaction. Then ROI frame on outcome.
 
 ### Entrepreneur (ESTP)
+**Cognitive stack:** Se-Ti-Fe-Ni
 **Core drive:** Action. Reality. Immediate results.
 **Buys when:** They can see it working quickly. Tangible > theoretical.
 **Loses when:** You go abstract or get lost in frameworks.
@@ -21,6 +25,7 @@
 **Sandler lever:** Small commitment first. Proof before pitch.
 
 ### Executive (ESTJ)
+**Cognitive stack:** Te-Si-Ne-Fi
 **Core drive:** Process + results. Accountability.
 **Buys when:** They have a plan they can audit and hold you to.
 **Loses when:** Scope is vague or reporting is weak.
@@ -32,6 +37,7 @@
 ## Analytical / Deliberate Buyers
 
 ### Architect (INTJ)
+**Cognitive stack:** Ni-Te-Fi-Se
 **Core drive:** Strategy. Systems thinking. Long-term leverage.
 **Buys when:** They see the systemic logic behind your recommendation.
 **Loses when:** You can't answer "why does this work" at a first-principles level.
@@ -39,6 +45,7 @@
 **Sandler lever:** Be the expert. Show systems thinking. Don't pitch — diagnose together.
 
 ### Logician (INTP)
+**Cognitive stack:** Ti-Ne-Si-Fe
 **Core drive:** Understanding. Probing assumptions.
 **Buys when:** They've tested your thinking and it held up.
 **Loses when:** You get defensive about pushback. They push back to probe, not to block.
@@ -46,6 +53,7 @@
 **Sandler lever:** Welcome the challenge. Think out loud with them. Don't rush to close.
 
 ### Logistician (ISTJ)
+**Cognitive stack:** Si-Te-Fi-Ne
 **Core drive:** Process. Proof. Reliability.
 **Buys when:** They understand exactly what they're getting and have evidence it works.
 **Loses when:** You're vague about deliverables, rush the timeline, or skip steps.
@@ -53,6 +61,7 @@
 **Sandler lever:** Full process disclosure. Case studies. Specific deliverable list. Patient next steps.
 
 ### Virtuoso (ISTP)
+**Cognitive stack:** Ti-Se-Ni-Fe
 **Core drive:** Practical mechanisms. Seeing how the machine works.
 **Buys when:** The mechanism is clear and the application is concrete.
 **Loses when:** You abstract. They want the specific, not the general.
@@ -64,6 +73,7 @@
 ## Relationship-Led Buyers
 
 ### Advocate (INFJ)
+**Cognitive stack:** Ni-Fe-Ti-Se
 **Core drive:** Values alignment. Long-term impact. Trusting the person.
 **Buys when:** They trust your character, not just your capability.
 **Loses when:** You feel transactional or push for speed they haven't earned.
@@ -71,6 +81,7 @@
 **Sandler lever:** Mission-layer the conversation. Connect your work to their purpose, not just their metrics.
 
 ### Protagonist (ENFJ)
+**Cognitive stack:** Fe-Ni-Se-Ti
 **Core drive:** Collaborative success. Wants you to win too.
 **Buys when:** It feels like a partnership, not a vendor relationship.
 **Loses when:** You're purely transactional or ignore the relationship layer.
@@ -78,6 +89,7 @@
 **Sandler lever:** Build the partnership frame early. Return-gesture on the relationship before the sale.
 
 ### Defender (ISFJ)
+**Cognitive stack:** Si-Fe-Ti-Ne
 **Core drive:** Stability. Risk avoidance. Proven relationships.
 **Buys when:** They feel safe and have social proof from people they trust.
 **Loses when:** They feel rushed or like they're taking a risk.
@@ -85,6 +97,7 @@
 **Sandler lever:** Referrals and case studies. Patience on timeline. Make saying yes feel safe.
 
 ### Consul (ESFJ)
+**Cognitive stack:** Fe-Si-Ne-Ti
 **Core drive:** Harmony. Team buy-in. Avoiding conflict.
 **Buys when:** The whole team is comfortable and nobody has a loud objection.
 **Loses when:** There's internal resistance they haven't resolved. They won't override the room.
@@ -96,6 +109,7 @@
 ## Vision / Energy Buyers
 
 ### Campaigner (ENFP)
+**Cognitive stack:** Ne-Fi-Te-Si
 **Core drive:** Big picture vision. Excitement. Possibilities.
 **Buys when:** They're energized by where this could go.
 **Loses when:** You lead with detail, process, or timeline before the vision is alive.
@@ -103,6 +117,7 @@
 **Sandler lever:** Vision-first. Then detail only when they ask. Keep energy high.
 
 ### Debater (ENTP)
+**Cognitive stack:** Ne-Ti-Fe-Si
 **Core drive:** Ideas. Innovation. Testing thinking.
 **Buys when:** They've challenged you and you didn't fold.
 **Loses when:** You agree with everything they say. That reads as weak.
@@ -114,6 +129,7 @@
 ## Mission / Autonomy Buyers
 
 ### Mediator (INFP)
+**Cognitive stack:** Fi-Ne-Si-Te
 **Core drive:** Mission alignment. Authenticity. No hard sell.
 **Buys when:** They feel genuinely understood and the work connects to something they care about.
 **Loses when:** They feel pushed or sense you're performing empathy.
@@ -121,12 +137,14 @@
 **Sandler lever:** Let them lead the pace. Ask mission-layer questions. Don't close early.
 
 ### Adventurer (ISFP)
+**Cognitive stack:** Fi-Se-Ni-Te
 **Core drive:** Autonomy. Values. Low-key trust.
 **Buys when:** They feel respected and can move at their own pace.
 **Loses when:** They feel like a number or the relationship feels forced.
 **Sandler lever:** Low pressure. Short meetings. Let them come back to you.
 
 ### Entertainer (ESFP)
+**Cognitive stack:** Se-Fi-Te-Ni
 **Core drive:** Energy. Relationship. Experience.
 **Buys when:** They like you and the energy feels right.
 **Loses when:** You're dry, over-detailed, or treat it like a transaction.

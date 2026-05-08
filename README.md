@@ -43,7 +43,7 @@ Expect output that looks like the example below.
 
 Every run produces:
 
-1. **Buyer Profile** — cognitive type, behavioral driver, evidence, failure mode for this deal
+1. **Buyer Profile** — type name, **Jung cognitive function stack** (Te-Si-Ne-Fi, Ti-Ne-Si-Fe, etc.) translated into plain English, behavioral driver, evidence, the buyer's inferior-function blind spot, failure mode for this deal
 2. **Sandler Frame Check** — what's known and unknown across Pain / Budget / Decision / Control
 3. **Close Strategy** — exact language for the next call, what to hold back
 
@@ -61,12 +61,15 @@ If `reference/user-profile.md` is filled out, you also get:
 Type: Commander (ENTJ)
 Confidence: High — 3+ aligned signals (data-first open, rejected process talk, asked for a specific metric)
 
+Cognitive stack: Te-Ni-Se-Fi — leads with metrics and external logic, backed by long-range vision; values surface late.
+
 Evidence:
-- "I don't need a strategy deck" → explicit rejection of process theater, output-only orientation
-- Asked for close rate metric before any relationship signal → T lead, Fire driver
-- References two past agencies → auditing before buying, control instinct
+- "I don't need a strategy deck" → Te rejecting process theater, wants measurable output
+- Asked for close rate metric before any relationship signal → Te dominant, Fi inferior
+- References two past agencies → Te audit pattern before commitment
 
 Primary driver: Fire — drive to acquire. Win-oriented.
+Inferior function blind spot: Inferior Fi — won't surface values misalignment themselves. If you sense it, name it for them.
 Failure mode: Over-explain process or lead with relationship. Deal dies in the first 3 minutes.
 
 ---
@@ -107,15 +110,16 @@ Hold back: Don't send a proposal unsolicited. Don't over-detail scope in writing
 
 ```
 buyer-profiler/
-├── identity.md          ← Who the specialist is
-├── rules.md             ← How it responds, output format, activation logic
-├── examples.md          ← Three worked examples (high/medium/low confidence)
+├── identity.md                  ← Who the specialist is
+├── rules.md                     ← How it responds, output format, activation logic
+├── examples.md                  ← Four worked examples (high/medium/low/multi-buyer)
 ├── reference/
-│   ├── buyer-types.md          ← All 16 buyer types with Sandler lever per type
-│   ├── sandler-pain-funnel.md  ← Pain funnel + 4-frame deal check
-│   ├── signal-reading-guide.md ← How to read T/F, E/I, J/P from a transcript
-│   └── user-profile.md         ← Your seller profile (fill this in)
-└── README.md            ← You are here
+│   ├── buyer-types.md           ← All 16 buyer types — cognitive stack + Sandler lever per type
+│   ├── cognitive-functions.md   ← The 8 Jung functions (Te, Ti, Fe, Fi, Ne, Ni, Se, Si) — diagnostic engine
+│   ├── sandler-pain-funnel.md   ← Pain funnel + 4-frame deal check
+│   ├── signal-reading-guide.md  ← How to read functions and traits from a transcript
+│   └── user-profile.md          ← Your seller profile (fill this in)
+└── README.md                    ← You are here
 ```
 
 ---
@@ -134,7 +138,8 @@ Also cohost of **Bullhorns & Bullseyes** — a podcast on marketing, brand, and 
 - **Clief Notes / Skool** — Week 3 competition prompt that sparked this build
 - **Terry Bean, Behavioral Elements** — The Fire / Earth / Water / Air behavioral driver framework that runs underneath every buyer type read. Terry's model maps primary drivers (acquire / defend / bond / learn) to how someone shows up in conversation. [behavioralelements.com](https://behavioralelements.com/)
 - **Sandler Training** — Pain funnel and qualification framework (trained 2011)
-- **16Personalities** — Personality type framework and naming conventions
+- **Carl Jung** — The eight cognitive functions (Te, Ti, Fe, Fi, Ne, Ni, Se, Si) and the four-function stack model. The deepest diagnostic layer in this specialist — what makes a Commander different from an Executive, or a Logician different from an Architect, isn't trait scores. It's which functions they lead with and which one's their blind spot.
+- **16Personalities** — Personality type framework and naming conventions (the 16 type names sit on top of Jung's stacks)
 
 ## License
 
