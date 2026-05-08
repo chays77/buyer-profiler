@@ -1,5 +1,9 @@
 # Buyer Profiler
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Built with: Claude](https://img.shields.io/badge/Built%20with-Claude-D97757.svg)](https://claude.ai)
+[![Methodology: ICM](https://img.shields.io/badge/Methodology-ICM-blue.svg)](https://www.skool.com/cliefnotes)
+
 **Most deals don't die at the close. They die at the open.**
 
 A folder-based AI specialist for Claude. Drop the folder into a Claude project. Claude becomes the specialist. Reusable. Shareable. Portable.
@@ -30,10 +34,35 @@ If you can read your prospect, you can close them. This folder helps you read th
 
 ## How to Use It
 
-1. Create a new Claude project at [claude.ai](https://claude.ai)
-2. Upload this entire folder to the project
+Three ways to run it. Pick the one that matches your setup.
+
+### Option 1 — Claude Projects (claude.ai web app)
+
+The cleanest path. The five-file ICM spec is what this is designed for.
+
+1. Create a new project at [claude.ai](https://claude.ai)
+2. Upload all files **except** `CLAUDE.md` (Anthropic's project system handles file loading automatically)
 3. (Optional but recommended) Open `reference/user-profile.md` and fill in your own seller profile — unlocks the Seller-Buyer Dynamic section
-4. Paste a sales call transcript or call notes and say: **"Profile this buyer and give me my close strategy."**
+4. Paste a transcript and say: **"Profile this buyer and give me my close strategy."**
+
+### Option 2 — Claude Desktop (local folder mode)
+
+Works as a standalone agent pointed at the folder on disk.
+
+1. Clone this repo locally: `git clone https://github.com/chays77/buyer-profiler.git`
+2. In Claude Desktop, point a new chat at the folder (the file picker shows `Instructions · CLAUDE.md` when loaded correctly)
+3. (Optional) Fill in `reference/user-profile.md`
+4. Paste a transcript and say: **"Profile this buyer and give me my close strategy."**
+
+`CLAUDE.md` is the entry contract that tells Claude Desktop what to load and in what order. Without it, the agent reads files lazily and ignores the rules.
+
+### Option 3 — Drop into your existing ICM workspace
+
+Already running an ICM folder structure? You can fold this specialist into it.
+
+1. Copy `identity.md`, `rules.md`, `examples.md`, and the `reference/` folder into your specialist directory
+2. **Delete `CLAUDE.md`** — your parent ICM already governs file loading
+3. Hand the user prompt to your routing layer the same way you do other specialists
 
 Expect output that looks like the example below.
 
@@ -143,6 +172,28 @@ buyer-profiler/
 │   └── user-profile.md          ← Your seller profile (fill this in)
 └── README.md                    ← You are here
 ```
+
+---
+
+## Troubleshooting
+
+**The agent produces a coaching memo about *me* instead of profiling the buyer in the transcript.**
+The seller-coaching pull from `reference/user-profile.md` is overriding the buyer diagnostic. Confirm two things: (1) you're running v3 or later (check that `identity.md` contains a "Your Job — Profile the Buyer" section), and (2) you're starting a fresh chat — earlier conversations anchor the agent's behavior even after rules change.
+
+**The agent doesn't read the folder files in Claude Desktop.**
+Claude Desktop's local-folder mode requires `CLAUDE.md` at the folder root. Without it, files load lazily and rules get ignored. Confirm `CLAUDE.md` is present and that the file picker shows `Instructions · CLAUDE.md` when the folder loads.
+
+**The agent drafts a full email with subject line, body, and signature.**
+That's the proposal-writing leak. v3 forbids it explicitly. If it still happens, you're either on an older version of the repo or running it inside a parent project whose rules override these. Pull latest and start a fresh session.
+
+**The agent skips the buyer profile and goes straight to tactics.**
+Your input may have been routed as a coaching question rather than a transcript. Try the explicit prompt: *"Profile this buyer and give me my close strategy."* That triggers the activation rule cleanly.
+
+**The Quick Read or Sandler Frame Check is missing entirely.**
+The agent isn't reading `rules.md`. Most likely cause in Claude Desktop: missing or malformed `CLAUDE.md`. In Claude Projects: the file may not have uploaded — check the project knowledge panel.
+
+**The agent doesn't ask for my seller profile.**
+By design — the prompt-back is non-blocking and appears at the bottom of the output, not the top. Scroll to the end. If `reference/user-profile.md` is filled in already, no prompt fires.
 
 ---
 
