@@ -41,9 +41,17 @@ Expect output that looks like the example below.
 
 ## What You Get
 
-Every run produces:
+Every run produces a **two-tier output** — a Quick Read at the top so you know what to do in 30 seconds, then a Deep Read below the fold with the diagnostic reasoning if you want to see the work.
 
-1. **Buyer Profile** — type name, **Jung cognitive function stack** (Te-Si-Ne-Fi, Ti-Ne-Si-Fe, etc.) translated into plain English, behavioral driver, evidence, the buyer's inferior-function blind spot, failure mode for this deal
+**Quick Read (above the fold):**
+- Buyer name + type + confidence
+- One-line plain-English read on how they decide
+- Critical Sandler gap (the one thing most likely to kill the deal)
+- Failure mode (how this deal specifically dies for this buyer)
+- Your single most important next move
+
+**Deep Read (below the fold):**
+1. **Buyer Profile** — Jung cognitive function stack (Te-Si-Ne-Fi, Ti-Ne-Si-Fe, etc.) translated into plain English, behavioral driver, evidence with function tags, inferior-function blind spot
 2. **Sandler Frame Check** — what's known and unknown across Pain / Budget / Decision / Control
 3. **Close Strategy** — exact language for the next call, what to hold back
 
@@ -51,30 +59,43 @@ If `reference/user-profile.md` is filled out, you also get:
 
 4. **Seller-Buyer Dynamic** — how your natural selling style interacts with this buyer's type, and where you need to compensate
 
+If `reference/user-profile.md` is empty, the specialist asks once at the bottom whether you want to share your own type — answer if you want sharper close advice, ignore it if you don't.
+
 ---
 
 ## Example Output
 
 ```
-## Buyer Profile
+## Quick Read
 
-Type: Commander (ENTJ)
-Confidence: High — 3+ aligned signals (data-first open, rejected process talk, asked for a specific metric)
+**Buyer:** Sarah Chen — Commander (ENTJ)
+**Confidence:** High — three aligned signals
+**How they decide:** Metrics first, vision second, gut feeling last. Rejects process theater, wants the number.
+**Critical gap:** Pain has no dollar number — proposal without it anchors on price alone
+**Failure mode:** Over-explain process or lead with relationship. Deal dies in the first 3 minutes.
+**Your single most important move:** Open the next call asking what the unsolved problem has cost her in revenue or time. Get the dollar number on the table before pitching anything.
 
-Cognitive stack: Te-Ni-Se-Fi — leads with metrics and external logic, backed by long-range vision; values surface late.
+---
 
-Evidence:
+## Deep Read
+
+### Buyer Profile
+
+**Type:** Commander (ENTJ)
+**Cognitive stack:** Te-Ni-Se-Fi — leads with metrics and external logic, backed by long-range vision; values sit underneath and surface late.
+
+**Evidence:**
 - "I don't need a strategy deck" → Te rejecting process theater, wants measurable output
 - Asked for close rate metric before any relationship signal → Te dominant, Fi inferior
 - References two past agencies → Te audit pattern before commitment
 
-Primary driver: Fire — drive to acquire. Win-oriented.
-Inferior function blind spot: Inferior Fi — won't surface values misalignment themselves. If you sense it, name it for them.
-Failure mode: Over-explain process or lead with relationship. Deal dies in the first 3 minutes.
+**Primary driver:** Fire — drive to acquire. Win-oriented.
+**Blend notes:** Commander with Executive lean — appetite for proven-process accountability alongside the strategic horizon.
+**Inferior function blind spot:** Inferior Fi — won't surface values misalignment themselves. If you sense it, name it for them.
 
 ---
 
-## Sandler Frame Check
+### Sandler Frame Check
 
 | Dimension | Status |
 |---|---|
@@ -83,11 +104,9 @@ Failure mode: Over-explain process or lead with relationship. Deal dies in the f
 | Decision | Likely sole decision-maker — confirm. |
 | Control | Theirs right now. Reclaim with a specific next step. |
 
-Critical gap: Pain has no dollar number. Proposal without it anchors on price alone.
-
 ---
 
-## Close Strategy
+### Close Strategy
 
 Open with: "Before I answer your question — walk me through what this has cost you while it's been unsolved. Revenue, time, whatever you can put a number on."
 
@@ -108,8 +127,11 @@ Hold back: Don't send a proposal unsolicited. Don't over-detail scope in writing
 
 ## Folder Contents
 
+The five-file ICM spec (identity, rules, examples, reference/, README) is unchanged. `CLAUDE.md` is a deployment helper that lets the folder run portably in Claude Desktop's local-folder mode — it is optional in Claude Project mode (Anthropic's project system already handles file loading). The diagnostic logic and output spec live in `identity.md` and `rules.md`; `CLAUDE.md` only restates the entry contract.
+
 ```
 buyer-profiler/
+├── CLAUDE.md                    ← Entry contract for Claude Desktop (optional in Claude Projects)
 ├── identity.md                  ← Who the specialist is
 ├── rules.md                     ← How it responds, output format, activation logic
 ├── examples.md                  ← Four worked examples (high/medium/low/multi-buyer)
